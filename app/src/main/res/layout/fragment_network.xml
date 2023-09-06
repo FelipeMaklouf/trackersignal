@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ping"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toTopOf="@+id/pingResultTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/atraso" />
+
+    <TextView
+        android:id="@+id/operatorTextView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="272dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pingResultTextView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="272dp"
+        android:layout_marginEnd="48dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/operator"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="5dp"
+        android:contentDescription="@string/operator"
+        app:layout_constraintBottom_toTopOf="@+id/operatorTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/chip" />
+
+    <ImageView
+        android:id="@+id/networktype"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/networkTypeTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/dadosmoveis" />
+
+    <TextView
+        android:id="@+id/networkSpeedTextView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="484dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/networkTypeTextView"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="484dp"
+        android:layout_marginEnd="48dp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/networkspeed"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/networkSpeedTextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/tipodevelocidade" />
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Network Data Collection"
+        android:textColor="#DFDFDF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
